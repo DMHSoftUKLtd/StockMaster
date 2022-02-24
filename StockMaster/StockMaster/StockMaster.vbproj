@@ -73,10 +73,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessLevelForm.Designer.vb">
+      <DependentUpon>AccessLevelForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccessLevelForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.vb">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataGridForm.Designer.vb">
+      <DependentUpon>DataGridForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.vb" />
+    <Compile Include="EmployeeForm.Designer.vb">
+      <DependentUpon>EmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginForm.Designer.vb">
       <DependentUpon>LoginForm.vb</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,6 +125,173 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ProfileForm.Designer.vb">
+      <DependentUpon>ProfileForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseOrder.vb" />
+    <Compile Include="PurchaseOrderForm.Designer.vb">
+      <DependentUpon>PurchaseOrderForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrderForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.vb" />
+    <Compile Include="ReportCriteriaForm.Designer.vb">
+      <DependentUpon>ReportCriteriaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewerForm.Designer.vb">
+      <DependentUpon>ReportViewerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Season.vb" />
+    <Compile Include="SeasonForm.Designer.vb">
+      <DependentUpon>SeasonForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SeasonForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting.vb" />
+    <Compile Include="SettingForm.Designer.vb">
+      <DependentUpon>SettingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.vb" />
+    <Compile Include="ShopAdjustment.vb" />
+    <Compile Include="ShopAdjustmentForm.Designer.vb">
+      <DependentUpon>ShopAdjustmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopAdjustmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopDelivery.vb" />
+    <Compile Include="ShopDeliveryForm.Designer.vb">
+      <DependentUpon>ShopDeliveryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopDeliveryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopForm.Designer.vb">
+      <DependentUpon>ShopForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopLocation.vb" />
+    <Compile Include="ShopLocationForm.Designer.vb">
+      <DependentUpon>ShopLocationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopLocationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopRefund.vb" />
+    <Compile Include="ShopRefundForm.Designer.vb">
+      <DependentUpon>ShopRefundForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopRefundForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopReturn.vb" />
+    <Compile Include="ShopReturnForm.Designer.vb">
+      <DependentUpon>ShopReturnForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopReturnForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopSale.vb" />
+    <Compile Include="ShopSaleForm.Designer.vb">
+      <DependentUpon>ShopSaleForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopSaleForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopStockTake.vb" />
+    <Compile Include="ShopStockTakeForm.Designer.vb">
+      <DependentUpon>ShopStockTakeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopStockTakeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopTransfer.vb" />
+    <Compile Include="ShopTransferForm.Designer.vb">
+      <DependentUpon>ShopTransferForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShopTransferForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.vb" />
+    <Compile Include="StockForm.Designer.vb">
+      <DependentUpon>StockForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier.vb" />
+    <Compile Include="SupplierForm.Designer.vb">
+      <DependentUpon>SupplierForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility.vb" />
+    <Compile Include="Warehouse.vb" />
+    <Compile Include="WarehouseAdjustment.vb" />
+    <Compile Include="WarehouseAdjustmentForm.Designer.vb">
+      <DependentUpon>WarehouseAdjustmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseAdjustmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseForm.Designer.vb">
+      <DependentUpon>WarehouseForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseLocation.vb" />
+    <Compile Include="WarehouseLocationForm.Designer.vb">
+      <DependentUpon>WarehouseLocationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseLocationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseOrderPick.vb" />
+    <Compile Include="WarehouseOrderPickForm.Designer.vb">
+      <DependentUpon>WarehouseOrderPickForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseOrderPickForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseReturn.vb" />
+    <Compile Include="WarehouseReturnForm.Designer.vb">
+      <DependentUpon>WarehouseReturnForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseReturnForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseStockTake.vb" />
+    <Compile Include="WarehouseStockTakeForm.Designer.vb">
+      <DependentUpon>WarehouseStockTakeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseStockTakeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseTransfer.vb" />
+    <Compile Include="WarehouseTransferForm.Designer.vb">
+      <DependentUpon>WarehouseTransferForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseTransferForm.vb">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
