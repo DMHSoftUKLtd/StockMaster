@@ -295,14 +295,71 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DataGridForm.resx">
+      <DependentUpon>DataGridForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseOrderForm.resx">
+      <DependentUpon>PurchaseOrderForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeasonForm.resx">
+      <DependentUpon>SeasonForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingForm.resx">
+      <DependentUpon>SettingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopAdjustmentForm.resx">
+      <DependentUpon>ShopAdjustmentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopDeliveryForm.resx">
+      <DependentUpon>ShopDeliveryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopForm.resx">
+      <DependentUpon>ShopForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopRefundForm.resx">
+      <DependentUpon>ShopRefundForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopReturnForm.resx">
+      <DependentUpon>ShopReturnForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopSaleForm.resx">
+      <DependentUpon>ShopSaleForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopTransferForm.resx">
+      <DependentUpon>ShopTransferForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockForm.resx">
+      <DependentUpon>StockForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierForm.resx">
+      <DependentUpon>SupplierForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseAdjustmentForm.resx">
+      <DependentUpon>WarehouseAdjustmentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseForm.resx">
+      <DependentUpon>WarehouseForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseReturnForm.resx">
+      <DependentUpon>WarehouseReturnForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseTransferForm.resx">
+      <DependentUpon>WarehouseTransferForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

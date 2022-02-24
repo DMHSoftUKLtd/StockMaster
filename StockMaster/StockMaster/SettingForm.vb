@@ -1,3 +1,4 @@
-﻿Public Class SettingForm
+﻿
+Public Class SettingForm
 
 End Class
