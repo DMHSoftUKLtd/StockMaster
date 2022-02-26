@@ -69,7 +69,7 @@ Partial Class ShopDeliveryForm
         Me.txtQty.Location = New System.Drawing.Point(163, 318)
         Me.txtQty.Margin = New System.Windows.Forms.Padding(8, 10, 8, 10)
         Me.txtQty.Name = "txtQty"
-        Me.txtQty.Size = New System.Drawing.Size(225, 30)
+        Me.txtQty.Size = New System.Drawing.Size(225, 37)
         Me.txtQty.TabIndex = 104
         '
         'DgvRecords
@@ -119,23 +119,23 @@ Partial Class ShopDeliveryForm
         '
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.Deliverlabel})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 955)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 945)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(5, 0, 48, 0)
-        Me.StatusStrip1.Size = New System.Drawing.Size(776, 32)
+        Me.StatusStrip1.Size = New System.Drawing.Size(776, 42)
         Me.StatusStrip1.TabIndex = 119
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(148, 25)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(203, 32)
         Me.ToolStripStatusLabel1.Text = "Delivery Lines :    "
         '
         'Deliverlabel
         '
         Me.Deliverlabel.Name = "Deliverlabel"
-        Me.Deliverlabel.Size = New System.Drawing.Size(180, 25)
+        Me.Deliverlabel.Size = New System.Drawing.Size(241, 32)
         Me.Deliverlabel.Text = "ToolStripStatusLabel2"
         '
         'Label21
@@ -284,7 +284,7 @@ Partial Class ShopDeliveryForm
         Me.Label4.Location = New System.Drawing.Point(195, 837)
         Me.Label4.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(182, 29)
+        Me.Label4.Size = New System.Drawing.Size(234, 37)
         Me.Label4.TabIndex = 116
         Me.Label4.Text = "Delivery Total:"
         '

@@ -1,117 +1,121 @@
 ﻿Public Class MainForm
-    Private Sub settingsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub SettingsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub employeesToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub EmployeesToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub profileToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ProfileToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub totalValuationToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub TotalValuationToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub reportsSystemToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ReportsSystemToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopDeliveriesToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopDeliveriesToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopAdjustmentsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopAdjustmentsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopTransfersToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopTransfersToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopSalesToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopSalesToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopRefundsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopRefundsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopReturnsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopReturnsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopLocationsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopLocationsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopStockTakeToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopStockTakeToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub purchaseOrdersToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub PurchaseOrdersToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub warehouseAdjustmentsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub WarehouseAdjustmentsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub warehouseTransfersToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub WarehouseTransfersToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub warehouseReturnsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub WarehouseReturnsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub warehouseLocationsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub WarehouseLocationsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub warehouseOrderPickToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub WarehouseOrderPickToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub warehouseStockTakeToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub WarehouseStockTakeToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub warehousesToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub WarehousesToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub suppliersToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub SuppliersToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shopsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShopsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub currentStockToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub CurrentStockToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub allStockToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub AllStockToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub seasonsToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub SeasonsToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub changePasswordToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ChangePasswordToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub logoutToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub LogoutToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub shutdownToolStripMenuItem_Click(sender As Object, e As EventArgs)
+    Private Sub ShutdownToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

@@ -58,6 +58,66 @@ Partial Class StockForm
         CType(Me.DgvLocationQty, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'StockCodeLabel
+        '
+        StockCodeLabel.AutoSize = True
+        StockCodeLabel.Location = New System.Drawing.Point(41, 21)
+        StockCodeLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
+        StockCodeLabel.Name = "StockCodeLabel"
+        StockCodeLabel.Size = New System.Drawing.Size(96, 20)
+        StockCodeLabel.TabIndex = 128
+        StockCodeLabel.Text = "Stock Code:"
+        '
+        'SupplierRefLabel
+        '
+        SupplierRefLabel.AutoSize = True
+        SupplierRefLabel.Location = New System.Drawing.Point(36, 74)
+        SupplierRefLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
+        SupplierRefLabel.Name = "SupplierRefLabel"
+        SupplierRefLabel.Size = New System.Drawing.Size(101, 20)
+        SupplierRefLabel.TabIndex = 129
+        SupplierRefLabel.Text = "Supplier Ref:"
+        '
+        'DeadCodeLabel
+        '
+        DeadCodeLabel.AutoSize = True
+        DeadCodeLabel.Location = New System.Drawing.Point(43, 172)
+        DeadCodeLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
+        DeadCodeLabel.Name = "DeadCodeLabel"
+        DeadCodeLabel.Size = New System.Drawing.Size(94, 20)
+        DeadCodeLabel.TabIndex = 130
+        DeadCodeLabel.Text = "Dead Code:"
+        '
+        'AmountTakenLabel
+        '
+        AmountTakenLabel.AutoSize = True
+        AmountTakenLabel.Location = New System.Drawing.Point(20, 259)
+        AmountTakenLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
+        AmountTakenLabel.Name = "AmountTakenLabel"
+        AmountTakenLabel.Size = New System.Drawing.Size(117, 20)
+        AmountTakenLabel.TabIndex = 131
+        AmountTakenLabel.Text = "Amount Taken:"
+        '
+        'CostValueLabel
+        '
+        CostValueLabel.AutoSize = True
+        CostValueLabel.Location = New System.Drawing.Point(46, 209)
+        CostValueLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
+        CostValueLabel.Name = "CostValueLabel"
+        CostValueLabel.Size = New System.Drawing.Size(91, 20)
+        CostValueLabel.TabIndex = 132
+        CostValueLabel.Text = "Cost Value:"
+        '
+        'PCMarkUpLabel
+        '
+        PCMarkUpLabel.AutoSize = True
+        PCMarkUpLabel.Location = New System.Drawing.Point(43, 314)
+        PCMarkUpLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
+        PCMarkUpLabel.Name = "PCMarkUpLabel"
+        PCMarkUpLabel.Size = New System.Drawing.Size(94, 20)
+        PCMarkUpLabel.TabIndex = 133
+        PCMarkUpLabel.Text = "PCMark Up:"
+        '
         'label7
         '
         Me.label7.AutoSize = True
@@ -192,7 +252,7 @@ Partial Class StockForm
         Me.ChkZeroQty.Location = New System.Drawing.Point(373, 171)
         Me.ChkZeroQty.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.ChkZeroQty.Name = "ChkZeroQty"
-        Me.ChkZeroQty.Size = New System.Drawing.Size(22, 21)
+        Me.ChkZeroQty.Size = New System.Drawing.Size(28, 27)
         Me.ChkZeroQty.TabIndex = 137
         Me.ChkZeroQty.UseVisualStyleBackColor = True
         '
@@ -244,36 +304,6 @@ Partial Class StockForm
         Me.CmdOK.Text = "Button1"
         Me.CmdOK.UseVisualStyleBackColor = True
         '
-        'StockCodeLabel
-        '
-        StockCodeLabel.AutoSize = True
-        StockCodeLabel.Location = New System.Drawing.Point(41, 21)
-        StockCodeLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
-        StockCodeLabel.Name = "StockCodeLabel"
-        StockCodeLabel.Size = New System.Drawing.Size(96, 20)
-        StockCodeLabel.TabIndex = 128
-        StockCodeLabel.Text = "Stock Code:"
-        '
-        'SupplierRefLabel
-        '
-        SupplierRefLabel.AutoSize = True
-        SupplierRefLabel.Location = New System.Drawing.Point(36, 74)
-        SupplierRefLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
-        SupplierRefLabel.Name = "SupplierRefLabel"
-        SupplierRefLabel.Size = New System.Drawing.Size(101, 20)
-        SupplierRefLabel.TabIndex = 129
-        SupplierRefLabel.Text = "Supplier Ref:"
-        '
-        'DeadCodeLabel
-        '
-        DeadCodeLabel.AutoSize = True
-        DeadCodeLabel.Location = New System.Drawing.Point(43, 172)
-        DeadCodeLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
-        DeadCodeLabel.Name = "DeadCodeLabel"
-        DeadCodeLabel.Size = New System.Drawing.Size(94, 20)
-        DeadCodeLabel.TabIndex = 130
-        DeadCodeLabel.Text = "Dead Code:"
-        '
         'ChkDeadCode
         '
         Me.ChkDeadCode.Location = New System.Drawing.Point(151, 153)
@@ -282,36 +312,6 @@ Partial Class StockForm
         Me.ChkDeadCode.Size = New System.Drawing.Size(69, 64)
         Me.ChkDeadCode.TabIndex = 125
         Me.ChkDeadCode.UseVisualStyleBackColor = True
-        '
-        'AmountTakenLabel
-        '
-        AmountTakenLabel.AutoSize = True
-        AmountTakenLabel.Location = New System.Drawing.Point(20, 259)
-        AmountTakenLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
-        AmountTakenLabel.Name = "AmountTakenLabel"
-        AmountTakenLabel.Size = New System.Drawing.Size(117, 20)
-        AmountTakenLabel.TabIndex = 131
-        AmountTakenLabel.Text = "Amount Taken:"
-        '
-        'CostValueLabel
-        '
-        CostValueLabel.AutoSize = True
-        CostValueLabel.Location = New System.Drawing.Point(46, 209)
-        CostValueLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
-        CostValueLabel.Name = "CostValueLabel"
-        CostValueLabel.Size = New System.Drawing.Size(91, 20)
-        CostValueLabel.TabIndex = 132
-        CostValueLabel.Text = "Cost Value:"
-        '
-        'PCMarkUpLabel
-        '
-        PCMarkUpLabel.AutoSize = True
-        PCMarkUpLabel.Location = New System.Drawing.Point(43, 314)
-        PCMarkUpLabel.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
-        PCMarkUpLabel.Name = "PCMarkUpLabel"
-        PCMarkUpLabel.Size = New System.Drawing.Size(94, 20)
-        PCMarkUpLabel.TabIndex = 133
-        PCMarkUpLabel.Text = "PCMark Up:"
         '
         'StockForm
         '

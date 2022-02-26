@@ -72,7 +72,7 @@ Partial Class ShopRefundForm
         Me.CheckBox1.Location = New System.Drawing.Point(134, 159)
         Me.CheckBox1.Margin = New System.Windows.Forms.Padding(8)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(171, 24)
+        Me.CheckBox1.Size = New System.Drawing.Size(177, 27)
         Me.CheckBox1.TabIndex = 245
         Me.CheckBox1.Text = "Enter A Zero Stock"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -381,7 +381,7 @@ Partial Class ShopRefundForm
         Me.Label10.Location = New System.Drawing.Point(63, 45)
         Me.Label10.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(92, 20)
+        Me.Label10.Size = New System.Drawing.Size(118, 26)
         Me.Label10.TabIndex = 243
         Me.Label10.Text = "Shop Ref:"
         '
@@ -433,7 +433,7 @@ Partial Class ShopRefundForm
         Me.Label5.Location = New System.Drawing.Point(201, 191)
         Me.Label5.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(166, 29)
+        Me.Label5.Size = New System.Drawing.Size(215, 37)
         Me.Label5.TabIndex = 219
         Me.Label5.Text = "Sales Totals:"
         '

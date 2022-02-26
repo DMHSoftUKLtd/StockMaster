@@ -712,7 +712,7 @@ Partial Class PurchaseOrderForm
         Me.Label5.Location = New System.Drawing.Point(770, 176)
         Me.Label5.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(168, 29)
+        Me.Label5.Size = New System.Drawing.Size(218, 37)
         Me.Label5.TabIndex = 325
         Me.Label5.Text = "Order Totals:"
         '
@@ -723,7 +723,7 @@ Partial Class PurchaseOrderForm
         Me.CheckBox1.Location = New System.Drawing.Point(1221, 1343)
         Me.CheckBox1.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(141, 24)
+        Me.CheckBox1.Size = New System.Drawing.Size(147, 27)
         Me.CheckBox1.TabIndex = 354
         Me.CheckBox1.Text = "Direct To Shop"
         Me.CheckBox1.UseVisualStyleBackColor = True

@@ -81,7 +81,7 @@ Partial Class WarehouseForm
         Me.Label4.Location = New System.Drawing.Point(613, 19)
         Me.Label4.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(74, 29)
+        Me.Label4.Size = New System.Drawing.Size(89, 36)
         Me.Label4.TabIndex = 22
         Me.Label4.Text = "Type:"
         '
@@ -104,7 +104,7 @@ Partial Class WarehouseForm
         Me.Label11.Location = New System.Drawing.Point(161, 513)
         Me.Label11.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(74, 29)
+        Me.Label11.Size = New System.Drawing.Size(90, 36)
         Me.Label11.TabIndex = 20
         Me.Label11.Text = "EMail"
         '
@@ -115,7 +115,7 @@ Partial Class WarehouseForm
         Me.Label10.Location = New System.Drawing.Point(128, 464)
         Me.Label10.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(107, 29)
+        Me.Label10.Size = New System.Drawing.Size(131, 36)
         Me.Label10.TabIndex = 19
         Me.Label10.Text = "Website:"
         '
@@ -126,7 +126,7 @@ Partial Class WarehouseForm
         Me.Label8.Location = New System.Drawing.Point(602, 411)
         Me.Label8.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(58, 29)
+        Me.Label8.Size = New System.Drawing.Size(72, 36)
         Me.Label8.TabIndex = 21
         Me.Label8.Text = "Fax:"
         '
@@ -137,7 +137,7 @@ Partial Class WarehouseForm
         Me.Label7.Location = New System.Drawing.Point(98, 415)
         Me.Label7.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(137, 29)
+        Me.Label7.Size = New System.Drawing.Size(164, 36)
         Me.Label7.TabIndex = 18
         Me.Label7.Text = "Telephone:"
         '
@@ -148,7 +148,7 @@ Partial Class WarehouseForm
         Me.Label6.Location = New System.Drawing.Point(103, 362)
         Me.Label6.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(132, 29)
+        Me.Label6.Size = New System.Drawing.Size(162, 36)
         Me.Label6.TabIndex = 17
         Me.Label6.Text = "Post Code:"
         '
@@ -159,7 +159,7 @@ Partial Class WarehouseForm
         Me.Label5.Location = New System.Drawing.Point(133, 170)
         Me.Label5.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(102, 29)
+        Me.Label5.Size = New System.Drawing.Size(126, 36)
         Me.Label5.TabIndex = 16
         Me.Label5.Text = "Address"
         '
@@ -182,7 +182,7 @@ Partial Class WarehouseForm
         Me.Label3.Location = New System.Drawing.Point(64, 117)
         Me.Label3.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(171, 29)
+        Me.Label3.Size = New System.Drawing.Size(210, 36)
         Me.Label3.TabIndex = 15
         Me.Label3.Text = "Contact Name:"
         '
@@ -193,7 +193,7 @@ Partial Class WarehouseForm
         Me.Label2.Location = New System.Drawing.Point(22, 72)
         Me.Label2.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(213, 29)
+        Me.Label2.Size = New System.Drawing.Size(261, 36)
         Me.Label2.TabIndex = 14
         Me.Label2.Text = "Warehouse Name:"
         '
@@ -204,7 +204,7 @@ Partial Class WarehouseForm
         Me.Label1.Location = New System.Drawing.Point(50, 18)
         Me.Label1.Margin = New System.Windows.Forms.Padding(0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(185, 29)
+        Me.Label1.Size = New System.Drawing.Size(230, 36)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Warehouse Ref:"
         '
@@ -216,7 +216,7 @@ Partial Class WarehouseForm
         Me.cboWType.Location = New System.Drawing.Point(709, 15)
         Me.cboWType.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.cboWType.Name = "cboWType"
-        Me.cboWType.Size = New System.Drawing.Size(332, 37)
+        Me.cboWType.Size = New System.Drawing.Size(332, 44)
         Me.cboWType.TabIndex = 1
         '
         'CmdOK
@@ -257,11 +257,11 @@ Partial Class WarehouseForm
         Me.TabPage1.Controls.Add(Me.TxtContactName)
         Me.TabPage1.Controls.Add(Me.TxtWarehouseName)
         Me.TabPage1.Controls.Add(Me.TxtWarehouseRef)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage1.Location = New System.Drawing.Point(8, 34)
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage1.Size = New System.Drawing.Size(1061, 564)
+        Me.TabPage1.Size = New System.Drawing.Size(1053, 555)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "General"
         '
@@ -272,7 +272,7 @@ Partial Class WarehouseForm
         Me.TxteMail.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxteMail.MaxLength = 255
         Me.TxteMail.Name = "TxteMail"
-        Me.TxteMail.Size = New System.Drawing.Size(727, 33)
+        Me.TxteMail.Size = New System.Drawing.Size(727, 41)
         Me.TxteMail.TabIndex = 12
         '
         'TxtFax
@@ -282,7 +282,7 @@ Partial Class WarehouseForm
         Me.TxtFax.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtFax.MaxLength = 20
         Me.TxtFax.Name = "TxtFax"
-        Me.TxtFax.Size = New System.Drawing.Size(251, 33)
+        Me.TxtFax.Size = New System.Drawing.Size(251, 41)
         Me.TxtFax.TabIndex = 10
         '
         'TxtWebsite
@@ -292,7 +292,7 @@ Partial Class WarehouseForm
         Me.TxtWebsite.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtWebsite.MaxLength = 255
         Me.TxtWebsite.Name = "TxtWebsite"
-        Me.TxtWebsite.Size = New System.Drawing.Size(727, 33)
+        Me.TxtWebsite.Size = New System.Drawing.Size(727, 41)
         Me.TxtWebsite.TabIndex = 11
         '
         'TxtTelephone1
@@ -302,7 +302,7 @@ Partial Class WarehouseForm
         Me.TxtTelephone1.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtTelephone1.MaxLength = 20
         Me.TxtTelephone1.Name = "TxtTelephone1"
-        Me.TxtTelephone1.Size = New System.Drawing.Size(334, 33)
+        Me.TxtTelephone1.Size = New System.Drawing.Size(334, 41)
         Me.TxtTelephone1.TabIndex = 9
         '
         'TxtPostCode
@@ -312,7 +312,7 @@ Partial Class WarehouseForm
         Me.TxtPostCode.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtPostCode.MaxLength = 10
         Me.TxtPostCode.Name = "TxtPostCode"
-        Me.TxtPostCode.Size = New System.Drawing.Size(334, 33)
+        Me.TxtPostCode.Size = New System.Drawing.Size(334, 41)
         Me.TxtPostCode.TabIndex = 8
         '
         'TxtAddress4
@@ -322,7 +322,7 @@ Partial Class WarehouseForm
         Me.TxtAddress4.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtAddress4.MaxLength = 50
         Me.TxtAddress4.Name = "TxtAddress4"
-        Me.TxtAddress4.Size = New System.Drawing.Size(795, 33)
+        Me.TxtAddress4.Size = New System.Drawing.Size(795, 41)
         Me.TxtAddress4.TabIndex = 7
         '
         'TxtAddress3
@@ -332,7 +332,7 @@ Partial Class WarehouseForm
         Me.TxtAddress3.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtAddress3.MaxLength = 50
         Me.TxtAddress3.Name = "TxtAddress3"
-        Me.TxtAddress3.Size = New System.Drawing.Size(795, 33)
+        Me.TxtAddress3.Size = New System.Drawing.Size(795, 41)
         Me.TxtAddress3.TabIndex = 6
         '
         'TxtAddress2
@@ -342,7 +342,7 @@ Partial Class WarehouseForm
         Me.TxtAddress2.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtAddress2.MaxLength = 50
         Me.TxtAddress2.Name = "TxtAddress2"
-        Me.TxtAddress2.Size = New System.Drawing.Size(795, 33)
+        Me.TxtAddress2.Size = New System.Drawing.Size(795, 41)
         Me.TxtAddress2.TabIndex = 5
         '
         'TxtAddress1
@@ -352,7 +352,7 @@ Partial Class WarehouseForm
         Me.TxtAddress1.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtAddress1.MaxLength = 50
         Me.TxtAddress1.Name = "TxtAddress1"
-        Me.TxtAddress1.Size = New System.Drawing.Size(795, 33)
+        Me.TxtAddress1.Size = New System.Drawing.Size(795, 41)
         Me.TxtAddress1.TabIndex = 4
         '
         'TxtContactName
@@ -362,7 +362,7 @@ Partial Class WarehouseForm
         Me.TxtContactName.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtContactName.MaxLength = 50
         Me.TxtContactName.Name = "TxtContactName"
-        Me.TxtContactName.Size = New System.Drawing.Size(795, 33)
+        Me.TxtContactName.Size = New System.Drawing.Size(795, 41)
         Me.TxtContactName.TabIndex = 3
         '
         'TxtWarehouseName
@@ -372,7 +372,7 @@ Partial Class WarehouseForm
         Me.TxtWarehouseName.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtWarehouseName.MaxLength = 50
         Me.TxtWarehouseName.Name = "TxtWarehouseName"
-        Me.TxtWarehouseName.Size = New System.Drawing.Size(795, 33)
+        Me.TxtWarehouseName.Size = New System.Drawing.Size(795, 41)
         Me.TxtWarehouseName.TabIndex = 2
         '
         'TxtWarehouseRef
@@ -382,7 +382,7 @@ Partial Class WarehouseForm
         Me.TxtWarehouseRef.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtWarehouseRef.MaxLength = 8
         Me.TxtWarehouseRef.Name = "TxtWarehouseRef"
-        Me.TxtWarehouseRef.Size = New System.Drawing.Size(334, 33)
+        Me.TxtWarehouseRef.Size = New System.Drawing.Size(334, 41)
         Me.TxtWarehouseRef.TabIndex = 0
         '
         'TxtMemo
@@ -398,11 +398,11 @@ Partial Class WarehouseForm
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.TxtMemo)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage4.Location = New System.Drawing.Point(8, 34)
         Me.TabPage4.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage4.Size = New System.Drawing.Size(1444, 816)
+        Me.TabPage4.Size = New System.Drawing.Size(1053, 555)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Memo"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -414,7 +414,7 @@ Partial Class WarehouseForm
         Me.label9.Location = New System.Drawing.Point(737, 527)
         Me.label9.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.label9.Name = "label9"
-        Me.label9.Size = New System.Drawing.Size(27, 29)
+        Me.label9.Size = New System.Drawing.Size(33, 36)
         Me.label9.TabIndex = 6
         Me.label9.Text = "0"
         '
@@ -425,7 +425,7 @@ Partial Class WarehouseForm
         Me.TxtTotalValue.Location = New System.Drawing.Point(945, 527)
         Me.TxtTotalValue.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.TxtTotalValue.Name = "TxtTotalValue"
-        Me.TxtTotalValue.Size = New System.Drawing.Size(83, 29)
+        Me.TxtTotalValue.Size = New System.Drawing.Size(105, 36)
         Me.TxtTotalValue.TabIndex = 5
         Me.TxtTotalValue.Text = "£0000"
         '
@@ -436,7 +436,7 @@ Partial Class WarehouseForm
         Me.TxtTotalStock.Location = New System.Drawing.Point(625, 527)
         Me.TxtTotalStock.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.TxtTotalStock.Name = "TxtTotalStock"
-        Me.TxtTotalStock.Size = New System.Drawing.Size(27, 29)
+        Me.TxtTotalStock.Size = New System.Drawing.Size(33, 36)
         Me.TxtTotalStock.TabIndex = 4
         Me.TxtTotalStock.Text = "0"
         '
@@ -452,7 +452,7 @@ Partial Class WarehouseForm
         Me.gridStock.Name = "gridStock"
         Me.gridStock.ReadOnly = True
         Me.gridStock.RowHeadersWidth = 62
-        Me.gridStock.Size = New System.Drawing.Size(1039, 500)
+        Me.gridStock.Size = New System.Drawing.Size(1031, 500)
         Me.gridStock.TabIndex = 0
         '
         'TabControl1
@@ -471,11 +471,11 @@ Partial Class WarehouseForm
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.gridTrans)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage2.Location = New System.Drawing.Point(8, 34)
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage2.Size = New System.Drawing.Size(1444, 816)
+        Me.TabPage2.Size = New System.Drawing.Size(1053, 555)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Transactions"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -492,7 +492,7 @@ Partial Class WarehouseForm
         Me.gridTrans.ReadOnly = True
         Me.gridTrans.RowHeadersVisible = False
         Me.gridTrans.RowHeadersWidth = 62
-        Me.gridTrans.Size = New System.Drawing.Size(1422, 800)
+        Me.gridTrans.Size = New System.Drawing.Size(1031, 539)
         Me.gridTrans.TabIndex = 0
         '
         'TabPage3
@@ -502,11 +502,11 @@ Partial Class WarehouseForm
         Me.TabPage3.Controls.Add(Me.TxtTotalStock)
         Me.TabPage3.Controls.Add(Me.Label12)
         Me.TabPage3.Controls.Add(Me.gridStock)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage3.Location = New System.Drawing.Point(8, 34)
         Me.TabPage3.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage3.Size = New System.Drawing.Size(1061, 564)
+        Me.TabPage3.Size = New System.Drawing.Size(1053, 555)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Stock"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -518,7 +518,7 @@ Partial Class WarehouseForm
         Me.Label12.Location = New System.Drawing.Point(359, 527)
         Me.Label12.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(93, 29)
+        Me.Label12.Size = New System.Drawing.Size(111, 36)
         Me.Label12.TabIndex = 2
         Me.Label12.Text = "Totals:"
         '

@@ -141,11 +141,11 @@ Partial Class ShopForm
         Me.TabPage1.Controls.Add(Me.TxtContactName)
         Me.TabPage1.Controls.Add(Me.TxtShopName)
         Me.TabPage1.Controls.Add(Me.TxtShopRef)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage1.Location = New System.Drawing.Point(8, 34)
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage1.Size = New System.Drawing.Size(988, 489)
+        Me.TabPage1.Size = New System.Drawing.Size(980, 480)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "General"
         '
@@ -311,11 +311,11 @@ Partial Class ShopForm
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.gridTrans)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage2.Location = New System.Drawing.Point(8, 34)
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage2.Size = New System.Drawing.Size(1332, 489)
+        Me.TabPage2.Size = New System.Drawing.Size(980, 480)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Transactions"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -332,7 +332,7 @@ Partial Class ShopForm
         Me.gridTrans.ReadOnly = True
         Me.gridTrans.RowHeadersVisible = False
         Me.gridTrans.RowHeadersWidth = 62
-        Me.gridTrans.Size = New System.Drawing.Size(1310, 473)
+        Me.gridTrans.Size = New System.Drawing.Size(958, 464)
         Me.gridTrans.TabIndex = 0
         '
         'TxtMemo
@@ -343,7 +343,7 @@ Partial Class ShopForm
         Me.TxtMemo.Multiline = True
         Me.TxtMemo.Name = "TxtMemo"
         Me.TxtMemo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TxtMemo.Size = New System.Drawing.Size(1310, 782)
+        Me.TxtMemo.Size = New System.Drawing.Size(958, 464)
         Me.TxtMemo.TabIndex = 0
         '
         'CmdOK
@@ -359,11 +359,11 @@ Partial Class ShopForm
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.TxtMemo)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage4.Location = New System.Drawing.Point(8, 34)
         Me.TabPage4.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage4.Size = New System.Drawing.Size(1332, 798)
+        Me.TabPage4.Size = New System.Drawing.Size(980, 480)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Memo"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -425,11 +425,11 @@ Partial Class ShopForm
         Me.TabPage3.Controls.Add(Me.TxtTotalItems)
         Me.TabPage3.Controls.Add(Me.Label12)
         Me.TabPage3.Controls.Add(Me.gridStocks)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage3.Location = New System.Drawing.Point(8, 34)
         Me.TabPage3.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(11, 8, 11, 8)
-        Me.TabPage3.Size = New System.Drawing.Size(988, 489)
+        Me.TabPage3.Size = New System.Drawing.Size(980, 480)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Stock"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -446,7 +446,7 @@ Partial Class ShopForm
         Me.gridStocks.ReadOnly = True
         Me.gridStocks.RowHeadersVisible = False
         Me.gridStocks.RowHeadersWidth = 62
-        Me.gridStocks.Size = New System.Drawing.Size(966, 430)
+        Me.gridStocks.Size = New System.Drawing.Size(958, 430)
         Me.gridStocks.TabIndex = 0
         '
         'TabControl1
@@ -472,7 +472,7 @@ Partial Class ShopForm
         Me.Controls.Add(Me.CmdCancel)
         Me.Controls.Add(Me.TabControl1)
         Me.Name = "ShopForm"
-        Me.Text = "ShopForm"
+        Me.Text = "Shop"
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)

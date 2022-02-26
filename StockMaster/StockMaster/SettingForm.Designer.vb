@@ -38,9 +38,9 @@ Partial Class SettingForm
         Me.lblBackupinfo = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.lblRestoreInfo = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.CmdRestore = New System.Windows.Forms.Button()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
@@ -107,7 +107,7 @@ Partial Class SettingForm
         Me.Label11.Location = New System.Drawing.Point(15, 41)
         Me.Label11.Margin = New System.Windows.Forms.Padding(12, 0, 12, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(347, 29)
+        Me.Label11.Size = New System.Drawing.Size(454, 37)
         Me.Label11.TabIndex = 1
         Me.Label11.Text = "Select Database from the list"
         '
@@ -128,7 +128,7 @@ Partial Class SettingForm
         Me.ComboBox1.Location = New System.Drawing.Point(12, 81)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(12, 11, 12, 11)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(360, 34)
+        Me.ComboBox1.Size = New System.Drawing.Size(360, 41)
         Me.ComboBox1.TabIndex = 0
         '
         'txtEmail
@@ -179,11 +179,11 @@ Partial Class SettingForm
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.TCBackUpRestore)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage2.Location = New System.Drawing.Point(8, 34)
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(12, 11, 12, 11)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(12, 11, 12, 11)
-        Me.TabPage2.Size = New System.Drawing.Size(767, 628)
+        Me.TabPage2.Size = New System.Drawing.Size(759, 619)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Backup / Restore"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -204,11 +204,11 @@ Partial Class SettingForm
         Me.TabPage3.BackColor = System.Drawing.Color.Orange
         Me.TabPage3.Controls.Add(Me.lblBackupinfo)
         Me.TabPage3.Controls.Add(Me.GroupBox2)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage3.Location = New System.Drawing.Point(8, 34)
         Me.TabPage3.Margin = New System.Windows.Forms.Padding(12, 11, 12, 11)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(12, 11, 12, 11)
-        Me.TabPage3.Size = New System.Drawing.Size(735, 559)
+        Me.TabPage3.Size = New System.Drawing.Size(727, 550)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "Backup"
         '
@@ -227,11 +227,11 @@ Partial Class SettingForm
         Me.TabPage4.BackColor = System.Drawing.Color.Coral
         Me.TabPage4.Controls.Add(Me.lblRestoreInfo)
         Me.TabPage4.Controls.Add(Me.GroupBox3)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage4.Location = New System.Drawing.Point(8, 34)
         Me.TabPage4.Margin = New System.Windows.Forms.Padding(12, 11, 12, 11)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(12, 11, 12, 11)
-        Me.TabPage4.Size = New System.Drawing.Size(735, 559)
+        Me.TabPage4.Size = New System.Drawing.Size(727, 550)
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "Restore"
         '
@@ -244,16 +244,6 @@ Partial Class SettingForm
         Me.lblRestoreInfo.Size = New System.Drawing.Size(66, 20)
         Me.lblRestoreInfo.TabIndex = 2
         Me.lblRestoreInfo.Text = "Label12"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(15, 30)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(12, 0, 12, 0)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(250, 20)
-        Me.Label13.TabIndex = 1
-        Me.Label13.Text = "Select dabase you want to restore"
         '
         'GroupBox3
         '
@@ -280,6 +270,16 @@ Partial Class SettingForm
         Me.Label14.Size = New System.Drawing.Size(220, 20)
         Me.Label14.TabIndex = 3
         Me.Label14.Text = "Select backup file from the list"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(15, 30)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(12, 0, 12, 0)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(250, 20)
+        Me.Label13.TabIndex = 1
+        Me.Label13.Text = "Select dabase you want to restore"
         '
         'CmdRestore
         '
@@ -332,11 +332,11 @@ Partial Class SettingForm
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.GroupBox1)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage1.Location = New System.Drawing.Point(8, 34)
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(12, 11, 12, 11)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(12, 11, 12, 11)
-        Me.TabPage1.Size = New System.Drawing.Size(767, 628)
+        Me.TabPage1.Size = New System.Drawing.Size(759, 619)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Company Details"
         Me.TabPage1.UseVisualStyleBackColor = True

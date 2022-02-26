@@ -41,7 +41,7 @@ Partial Class WarehouseAdjustmentForm
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TxtWarehouseName = New System.Windows.Forms.TextBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.DtpTransactionDate = New System.Windows.Forms.DateTimePicker()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.CmdOK = New System.Windows.Forms.Button()
         Me.TxtCurrentHangers = New System.Windows.Forms.TextBox()
@@ -240,13 +240,13 @@ Partial Class WarehouseAdjustmentForm
         Me.TxtWarehouseName.Size = New System.Drawing.Size(268, 26)
         Me.TxtWarehouseName.TabIndex = 105
         '
-        'DateTimePicker1
+        'DtpTransactionDate
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(106, 15)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(265, 26)
-        Me.DateTimePicker1.TabIndex = 84
+        Me.DtpTransactionDate.Location = New System.Drawing.Point(106, 15)
+        Me.DtpTransactionDate.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+        Me.DtpTransactionDate.Name = "DtpTransactionDate"
+        Me.DtpTransactionDate.Size = New System.Drawing.Size(265, 26)
+        Me.DtpTransactionDate.TabIndex = 84
         '
         'Label10
         '
@@ -383,7 +383,7 @@ Partial Class WarehouseAdjustmentForm
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TxtWarehouseName)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.DtpTransactionDate)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.CmdOK)
         Me.Controls.Add(Me.TxtCurrentHangers)
@@ -423,7 +423,7 @@ Partial Class WarehouseAdjustmentForm
     Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents TxtWarehouseName As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DtpTransactionDate As DateTimePicker
     Friend WithEvents Label10 As Label
     Public WithEvents CmdOK As Button
     Friend WithEvents TxtCurrentHangers As TextBox

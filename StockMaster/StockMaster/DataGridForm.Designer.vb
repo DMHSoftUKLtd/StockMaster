@@ -70,7 +70,7 @@ Partial Class DataGridForm
         '
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSSLFunction, Me.TSSCount, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 12)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 16)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(3, 0, 32, 0)
         Me.StatusStrip1.Size = New System.Drawing.Size(1501, 32)
@@ -94,7 +94,7 @@ Partial Class DataGridForm
         Me.DgvRecords.Name = "DgvRecords"
         Me.DgvRecords.ReadOnly = True
         Me.DgvRecords.RowHeadersWidth = 51
-        Me.DgvRecords.Size = New System.Drawing.Size(1501, 865)
+        Me.DgvRecords.Size = New System.Drawing.Size(1501, 861)
         Me.DgvRecords.TabIndex = 0
         '
         'SplitContainer2
@@ -114,7 +114,7 @@ Partial Class DataGridForm
         '
         Me.SplitContainer2.Panel2.Controls.Add(Me.StatusStrip1)
         Me.SplitContainer2.Size = New System.Drawing.Size(1501, 917)
-        Me.SplitContainer2.SplitterDistance = 865
+        Me.SplitContainer2.SplitterDistance = 861
         Me.SplitContainer2.SplitterWidth = 8
         Me.SplitContainer2.TabIndex = 0
         '

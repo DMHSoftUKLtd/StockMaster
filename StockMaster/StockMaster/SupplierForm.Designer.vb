@@ -94,11 +94,11 @@ Partial Class SupplierForm
         Me.tabPage1.Controls.Add(Me.Label4)
         Me.tabPage1.Controls.Add(Me.Label5)
         Me.tabPage1.Controls.Add(Me.Label6)
-        Me.tabPage1.Location = New System.Drawing.Point(4, 29)
+        Me.tabPage1.Location = New System.Drawing.Point(8, 34)
         Me.tabPage1.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.tabPage1.Name = "tabPage1"
         Me.tabPage1.Padding = New System.Windows.Forms.Padding(8, 6, 8, 6)
-        Me.tabPage1.Size = New System.Drawing.Size(1128, 663)
+        Me.tabPage1.Size = New System.Drawing.Size(1120, 654)
         Me.tabPage1.TabIndex = 0
         Me.tabPage1.Text = "Details"
         Me.tabPage1.UseVisualStyleBackColor = True
@@ -219,7 +219,7 @@ Partial Class SupplierForm
         Me.TxtSupplierRef.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.TxtSupplierRef.MaxLength = 8
         Me.TxtSupplierRef.Name = "TxtSupplierRef"
-        Me.TxtSupplierRef.Size = New System.Drawing.Size(295, 32)
+        Me.TxtSupplierRef.Size = New System.Drawing.Size(295, 40)
         Me.TxtSupplierRef.TabIndex = 0
         '
         'Label1
@@ -305,11 +305,11 @@ Partial Class SupplierForm
         'tabPage2
         '
         Me.tabPage2.Controls.Add(Me.gridTrans)
-        Me.tabPage2.Location = New System.Drawing.Point(4, 29)
+        Me.tabPage2.Location = New System.Drawing.Point(8, 34)
         Me.tabPage2.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.tabPage2.Name = "tabPage2"
         Me.tabPage2.Padding = New System.Windows.Forms.Padding(8, 6, 8, 6)
-        Me.tabPage2.Size = New System.Drawing.Size(1128, 663)
+        Me.tabPage2.Size = New System.Drawing.Size(1120, 654)
         Me.tabPage2.TabIndex = 1
         Me.tabPage2.Text = "Items"
         Me.tabPage2.UseVisualStyleBackColor = True
@@ -325,17 +325,17 @@ Partial Class SupplierForm
         Me.gridTrans.Name = "gridTrans"
         Me.gridTrans.ReadOnly = True
         Me.gridTrans.RowHeadersWidth = 62
-        Me.gridTrans.Size = New System.Drawing.Size(1112, 651)
+        Me.gridTrans.Size = New System.Drawing.Size(1104, 642)
         Me.gridTrans.TabIndex = 34
         '
         'tabPage3
         '
         Me.tabPage3.Controls.Add(Me.TxtMemo)
-        Me.tabPage3.Location = New System.Drawing.Point(4, 29)
+        Me.tabPage3.Location = New System.Drawing.Point(8, 34)
         Me.tabPage3.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.tabPage3.Name = "tabPage3"
         Me.tabPage3.Padding = New System.Windows.Forms.Padding(8, 6, 8, 6)
-        Me.tabPage3.Size = New System.Drawing.Size(1128, 663)
+        Me.tabPage3.Size = New System.Drawing.Size(1120, 654)
         Me.tabPage3.TabIndex = 2
         Me.tabPage3.Text = "Memo"
         Me.tabPage3.UseVisualStyleBackColor = True
@@ -347,7 +347,7 @@ Partial Class SupplierForm
         Me.TxtMemo.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.TxtMemo.Multiline = True
         Me.TxtMemo.Name = "TxtMemo"
-        Me.TxtMemo.Size = New System.Drawing.Size(1112, 651)
+        Me.TxtMemo.Size = New System.Drawing.Size(1104, 642)
         Me.TxtMemo.TabIndex = 0
         '
         'CmdOK

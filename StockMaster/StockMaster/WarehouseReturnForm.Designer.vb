@@ -341,7 +341,7 @@ Partial Class WarehouseReturnForm
         Me.CheckBox1.Location = New System.Drawing.Point(1517, 652)
         Me.CheckBox1.Margin = New System.Windows.Forms.Padding(11)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(168, 24)
+        Me.CheckBox1.Size = New System.Drawing.Size(174, 27)
         Me.CheckBox1.TabIndex = 21
         Me.CheckBox1.Text = "Return To Supplier"
         Me.CheckBox1.UseVisualStyleBackColor = True

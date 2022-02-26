@@ -22,8 +22,8 @@ Partial Class ShopAdjustmentForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TxtSID = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -74,7 +74,7 @@ Partial Class ShopAdjustmentForm
         Me.Label11.Location = New System.Drawing.Point(540, 15)
         Me.Label11.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(207, 26)
+        Me.Label11.Size = New System.Drawing.Size(280, 36)
         Me.Label11.TabIndex = 110
         Me.Label11.Text = "Shop Adjustment ID"
         '
@@ -85,7 +85,7 @@ Partial Class ShopAdjustmentForm
         Me.Label9.Location = New System.Drawing.Point(326, 671)
         Me.Label9.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(111, 26)
+        Me.Label9.Size = New System.Drawing.Size(152, 36)
         Me.Label9.TabIndex = 99
         Me.Label9.Text = "Total Gain"
         '
@@ -96,7 +96,7 @@ Partial Class ShopAdjustmentForm
         Me.Label6.Location = New System.Drawing.Point(515, 671)
         Me.Label6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(111, 26)
+        Me.Label6.Size = New System.Drawing.Size(153, 36)
         Me.Label6.TabIndex = 101
         Me.Label6.Text = "Total Loss"
         '
@@ -106,7 +106,7 @@ Partial Class ShopAdjustmentForm
         Me.txtTotalLoss.Location = New System.Drawing.Point(525, 718)
         Me.txtTotalLoss.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtTotalLoss.Name = "txtTotalLoss"
-        Me.txtTotalLoss.Size = New System.Drawing.Size(104, 32)
+        Me.txtTotalLoss.Size = New System.Drawing.Size(104, 41)
         Me.txtTotalLoss.TabIndex = 102
         '
         'txtTotalGain
@@ -115,7 +115,7 @@ Partial Class ShopAdjustmentForm
         Me.txtTotalGain.Location = New System.Drawing.Point(334, 718)
         Me.txtTotalGain.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtTotalGain.Name = "txtTotalGain"
-        Me.txtTotalGain.Size = New System.Drawing.Size(127, 32)
+        Me.txtTotalGain.Size = New System.Drawing.Size(127, 41)
         Me.txtTotalGain.TabIndex = 100
         '
         'dgvItems
@@ -140,19 +140,19 @@ Partial Class ShopAdjustmentForm
         '
         'TransFromQty
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle3.NullValue = Nothing
-        Me.TransFromQty.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle1.NullValue = Nothing
+        Me.TransFromQty.DefaultCellStyle = DataGridViewCellStyle1
         Me.TransFromQty.HeaderText = "Adjustment Type"
         Me.TransFromQty.MinimumWidth = 6
         Me.TransFromQty.Name = "TransFromQty"
         '
         'TransToQty
         '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Format = "N0"
-        DataGridViewCellStyle4.NullValue = Nothing
-        Me.TransToQty.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle2.Format = "N0"
+        DataGridViewCellStyle2.NullValue = Nothing
+        Me.TransToQty.DefaultCellStyle = DataGridViewCellStyle2
         Me.TransToQty.HeaderText = "Adjustment Qty"
         Me.TransToQty.MinimumWidth = 6
         Me.TransToQty.Name = "TransToQty"
@@ -186,7 +186,7 @@ Partial Class ShopAdjustmentForm
         Me.cboType.Location = New System.Drawing.Point(357, 238)
         Me.cboType.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.cboType.Name = "cboType"
-        Me.cboType.Size = New System.Drawing.Size(264, 34)
+        Me.cboType.Size = New System.Drawing.Size(264, 41)
         Me.cboType.TabIndex = 88
         '
         'txtAdjustHangers
@@ -195,7 +195,7 @@ Partial Class ShopAdjustmentForm
         Me.txtAdjustHangers.Location = New System.Drawing.Point(631, 238)
         Me.txtAdjustHangers.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtAdjustHangers.Name = "txtAdjustHangers"
-        Me.txtAdjustHangers.Size = New System.Drawing.Size(116, 32)
+        Me.txtAdjustHangers.Size = New System.Drawing.Size(116, 41)
         Me.txtAdjustHangers.TabIndex = 89
         '
         'Label8
@@ -205,7 +205,7 @@ Partial Class ShopAdjustmentForm
         Me.Label8.Location = New System.Drawing.Point(626, 198)
         Me.Label8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(168, 26)
+        Me.Label8.Size = New System.Drawing.Size(225, 36)
         Me.Label8.TabIndex = 98
         Me.Label8.Text = "Adjustment Qty:"
         '
@@ -227,7 +227,7 @@ Partial Class ShopAdjustmentForm
         Me.Label7.Location = New System.Drawing.Point(352, 198)
         Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(181, 26)
+        Me.Label7.Size = New System.Drawing.Size(246, 36)
         Me.Label7.TabIndex = 97
         Me.Label7.Text = "Adjustment Type:"
         '
@@ -238,7 +238,7 @@ Partial Class ShopAdjustmentForm
         Me.Label5.Location = New System.Drawing.Point(62, 145)
         Me.Label5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(134, 26)
+        Me.Label5.Size = New System.Drawing.Size(179, 36)
         Me.Label5.TabIndex = 105
         Me.Label5.Text = "Shop Name:"
         '
@@ -249,7 +249,7 @@ Partial Class ShopAdjustmentForm
         Me.txtShopName.Location = New System.Drawing.Point(206, 145)
         Me.txtShopName.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtShopName.Name = "txtShopName"
-        Me.txtShopName.Size = New System.Drawing.Size(272, 32)
+        Me.txtShopName.Size = New System.Drawing.Size(272, 41)
         Me.txtShopName.TabIndex = 106
         '
         'DtpDate
@@ -258,7 +258,7 @@ Partial Class ShopAdjustmentForm
         Me.DtpDate.Location = New System.Drawing.Point(206, 9)
         Me.DtpDate.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.DtpDate.Name = "DtpDate"
-        Me.DtpDate.Size = New System.Drawing.Size(324, 32)
+        Me.DtpDate.Size = New System.Drawing.Size(324, 41)
         Me.DtpDate.TabIndex = 84
         Me.DtpDate.Value = New Date(2017, 9, 1, 0, 0, 0, 0)
         '
@@ -269,7 +269,7 @@ Partial Class ShopAdjustmentForm
         Me.Label10.Location = New System.Drawing.Point(14, 9)
         Me.Label10.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(182, 26)
+        Me.Label10.Size = New System.Drawing.Size(248, 36)
         Me.Label10.TabIndex = 109
         Me.Label10.Text = "Transaction Date:"
         '
@@ -290,7 +290,7 @@ Partial Class ShopAdjustmentForm
         Me.txtCurrentHangers.Location = New System.Drawing.Point(217, 238)
         Me.txtCurrentHangers.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtCurrentHangers.Name = "txtCurrentHangers"
-        Me.txtCurrentHangers.Size = New System.Drawing.Size(125, 32)
+        Me.txtCurrentHangers.Size = New System.Drawing.Size(125, 41)
         Me.txtCurrentHangers.TabIndex = 95
         '
         'CmdCancel
@@ -322,7 +322,7 @@ Partial Class ShopAdjustmentForm
         Me.txtShopRef.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtShopRef.MaxLength = 8
         Me.txtShopRef.Name = "txtShopRef"
-        Me.txtShopRef.Size = New System.Drawing.Size(112, 32)
+        Me.txtShopRef.Size = New System.Drawing.Size(112, 41)
         Me.txtShopRef.TabIndex = 86
         '
         'txtReference
@@ -332,7 +332,7 @@ Partial Class ShopAdjustmentForm
         Me.txtReference.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtReference.MaxLength = 50
         Me.txtReference.Name = "txtReference"
-        Me.txtReference.Size = New System.Drawing.Size(240, 32)
+        Me.txtReference.Size = New System.Drawing.Size(240, 41)
         Me.txtReference.TabIndex = 85
         '
         'Label1
@@ -342,7 +342,7 @@ Partial Class ShopAdjustmentForm
         Me.Label1.Location = New System.Drawing.Point(78, 57)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 26)
+        Me.Label1.Size = New System.Drawing.Size(159, 36)
         Me.Label1.TabIndex = 108
         Me.Label1.Text = "Reference:"
         '
@@ -353,7 +353,7 @@ Partial Class ShopAdjustmentForm
         Me.Label2.Location = New System.Drawing.Point(87, 101)
         Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(109, 26)
+        Me.Label2.Size = New System.Drawing.Size(148, 36)
         Me.Label2.TabIndex = 107
         Me.Label2.Text = "Shop Ref:"
         '
@@ -364,7 +364,7 @@ Partial Class ShopAdjustmentForm
         Me.Label4.Location = New System.Drawing.Point(212, 198)
         Me.Label4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(130, 26)
+        Me.Label4.Size = New System.Drawing.Size(175, 36)
         Me.Label4.TabIndex = 96
         Me.Label4.Text = "Current Qty:"
         '
@@ -375,7 +375,7 @@ Partial Class ShopAdjustmentForm
         Me.Label3.Location = New System.Drawing.Point(9, 198)
         Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(131, 26)
+        Me.Label3.Size = New System.Drawing.Size(177, 36)
         Me.Label3.TabIndex = 104
         Me.Label3.Text = "Stock Code:"
         '
@@ -386,7 +386,7 @@ Partial Class ShopAdjustmentForm
         Me.txtStockCode.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
         Me.txtStockCode.MaxLength = 30
         Me.txtStockCode.Name = "txtStockCode"
-        Me.txtStockCode.Size = New System.Drawing.Size(192, 32)
+        Me.txtStockCode.Size = New System.Drawing.Size(192, 41)
         Me.txtStockCode.TabIndex = 87
         '
         'ShopAdjustmentForm
