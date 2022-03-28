@@ -44,7 +44,7 @@ Public Class Utility
     ' DateTime Data Types
     Public MovementDate As DateTime
 
-    Public Function GetConnString(ID As Integer) As String
+    Public Shared Function GetConnString(ID As Integer) As String
         ' Returns the correct Database connection string for the identity record.
         If ID = 1 Then
             Return "Initial Catalog=FYPv2;Data Source=(local);Persist Security Info=False;Integrated Security=true;"
@@ -57,7 +57,7 @@ Public Class Utility
         End If
     End Function
 
-    Public Function GetSundayDate(DatePicked As DateTime, DateType As Integer) As DateTime
+    Public Shared Function GetSundayDate(DatePicked As DateTime, DateType As Integer) As DateTime
         'Gives the correct Sunday's Date depending on the function that is calling the function.
         If DateType = 1 Then
             Return DatePicked.AddDays(0 - DatePicked.DayOfWeek)
@@ -66,7 +66,7 @@ Public Class Utility
         End If
     End Function
 
-    Public Function ChangeCase(TextToConvert As String, TextType As Integer) As String
+    Public Shared Function ChangeCase(TextToConvert As String, TextType As Integer) As String
         If TextType = 1 Then
             Return TextToConvert.ToUpper()
         ElseIf TextType = 2 Then

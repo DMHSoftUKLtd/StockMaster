@@ -104,7 +104,7 @@ Partial Class PurchaseOrderForm
         '
         'CmdDeleteFromGrid
         '
-        Me.CmdDeleteFromGrid.Location = New System.Drawing.Point(910, 102)
+        Me.CmdDeleteFromGrid.Location = New System.Drawing.Point(909, 102)
         Me.CmdDeleteFromGrid.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.CmdDeleteFromGrid.Name = "CmdDeleteFromGrid"
         Me.CmdDeleteFromGrid.Size = New System.Drawing.Size(142, 49)
@@ -114,7 +114,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtNetCostLine
         '
-        Me.TxtNetCostLine.Location = New System.Drawing.Point(910, 55)
+        Me.TxtNetCostLine.Location = New System.Drawing.Point(909, 55)
         Me.TxtNetCostLine.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtNetCostLine.Name = "TxtNetCostLine"
         Me.TxtNetCostLine.Size = New System.Drawing.Size(142, 31)
@@ -122,7 +122,7 @@ Partial Class PurchaseOrderForm
         '
         'CmdAddToGrid
         '
-        Me.CmdAddToGrid.Location = New System.Drawing.Point(725, 102)
+        Me.CmdAddToGrid.Location = New System.Drawing.Point(724, 102)
         Me.CmdAddToGrid.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.CmdAddToGrid.Name = "CmdAddToGrid"
         Me.CmdAddToGrid.Size = New System.Drawing.Size(163, 49)
@@ -134,7 +134,7 @@ Partial Class PurchaseOrderForm
         '
         Me.Label25.AutoSize = True
         Me.Label25.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label25.Location = New System.Drawing.Point(910, 0)
+        Me.Label25.Location = New System.Drawing.Point(909, 0)
         Me.Label25.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(95, 25)
@@ -143,7 +143,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtQtyHangers
         '
-        Me.TxtQtyHangers.Location = New System.Drawing.Point(725, 55)
+        Me.TxtQtyHangers.Location = New System.Drawing.Point(724, 55)
         Me.TxtQtyHangers.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtQtyHangers.Name = "TxtQtyHangers"
         Me.TxtQtyHangers.Size = New System.Drawing.Size(163, 31)
@@ -151,7 +151,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtQtyBoxes
         '
-        Me.TxtQtyBoxes.Location = New System.Drawing.Point(581, 55)
+        Me.TxtQtyBoxes.Location = New System.Drawing.Point(580, 55)
         Me.TxtQtyBoxes.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtQtyBoxes.Name = "TxtQtyBoxes"
         Me.TxtQtyBoxes.Size = New System.Drawing.Size(122, 31)
@@ -161,7 +161,7 @@ Partial Class PurchaseOrderForm
         '
         Me.Label22.AutoSize = True
         Me.Label22.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label22.Location = New System.Drawing.Point(725, 0)
+        Me.Label22.Location = New System.Drawing.Point(724, 0)
         Me.Label22.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(132, 25)
@@ -180,7 +180,7 @@ Partial Class PurchaseOrderForm
         '
         Me.label1.AutoSize = True
         Me.label1.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.label1.Location = New System.Drawing.Point(581, 0)
+        Me.label1.Location = New System.Drawing.Point(580, 0)
         Me.label1.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.label1.Name = "label1"
         Me.label1.Size = New System.Drawing.Size(111, 25)
@@ -189,7 +189,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtQtyGarments
         '
-        Me.TxtQtyGarments.Location = New System.Drawing.Point(452, 55)
+        Me.TxtQtyGarments.Location = New System.Drawing.Point(451, 55)
         Me.TxtQtyGarments.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtQtyGarments.Name = "TxtQtyGarments"
         Me.TxtQtyGarments.Size = New System.Drawing.Size(107, 31)
@@ -198,7 +198,7 @@ Partial Class PurchaseOrderForm
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(185, 200)
+        Me.Label24.Location = New System.Drawing.Point(184, 200)
         Me.Label24.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(24, 25)
@@ -208,7 +208,7 @@ Partial Class PurchaseOrderForm
         'label28
         '
         Me.label28.AutoSize = True
-        Me.label28.Location = New System.Drawing.Point(185, 160)
+        Me.label28.Location = New System.Drawing.Point(184, 160)
         Me.label28.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.label28.Name = "label28"
         Me.label28.Size = New System.Drawing.Size(24, 25)
@@ -226,7 +226,7 @@ Partial Class PurchaseOrderForm
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(185, 110)
+        Me.Label23.Location = New System.Drawing.Point(184, 110)
         Me.Label23.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(24, 25)
@@ -237,7 +237,7 @@ Partial Class PurchaseOrderForm
         '
         Me.label11.AutoSize = True
         Me.label11.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.label11.Location = New System.Drawing.Point(452, 0)
+        Me.label11.Location = New System.Drawing.Point(451, 0)
         Me.label11.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.label11.Name = "label11"
         Me.label11.Size = New System.Drawing.Size(105, 47)
@@ -247,7 +247,7 @@ Partial Class PurchaseOrderForm
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(185, 55)
+        Me.Label19.Location = New System.Drawing.Point(184, 55)
         Me.Label19.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(24, 25)
@@ -257,7 +257,7 @@ Partial Class PurchaseOrderForm
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(185, 0)
+        Me.Label14.Location = New System.Drawing.Point(184, 0)
         Me.Label14.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(24, 25)
@@ -287,7 +287,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtTotalOrderPrice
         '
-        Me.TxtTotalOrderPrice.Location = New System.Drawing.Point(235, 208)
+        Me.TxtTotalOrderPrice.Location = New System.Drawing.Point(234, 208)
         Me.TxtTotalOrderPrice.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtTotalOrderPrice.Name = "TxtTotalOrderPrice"
         Me.TxtTotalOrderPrice.Size = New System.Drawing.Size(233, 31)
@@ -295,7 +295,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtTotalGarments
         '
-        Me.TxtTotalGarments.Location = New System.Drawing.Point(11, 34)
+        Me.TxtTotalGarments.Location = New System.Drawing.Point(11, 33)
         Me.TxtTotalGarments.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtTotalGarments.Name = "TxtTotalGarments"
         Me.TxtTotalGarments.Size = New System.Drawing.Size(139, 31)
@@ -303,7 +303,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtVATAmount
         '
-        Me.TxtVATAmount.Location = New System.Drawing.Point(231, 168)
+        Me.TxtVATAmount.Location = New System.Drawing.Point(230, 168)
         Me.TxtVATAmount.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.TxtVATAmount.Name = "TxtVATAmount"
         Me.TxtVATAmount.Size = New System.Drawing.Size(233, 31)
@@ -312,7 +312,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtTotalNet
         '
-        Me.TxtTotalNet.Location = New System.Drawing.Point(235, 8)
+        Me.TxtTotalNet.Location = New System.Drawing.Point(234, 8)
         Me.TxtTotalNet.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtTotalNet.Name = "TxtTotalNet"
         Me.TxtTotalNet.Size = New System.Drawing.Size(233, 31)
@@ -370,7 +370,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtCommission
         '
-        Me.TxtCommission.Location = New System.Drawing.Point(235, 118)
+        Me.TxtCommission.Location = New System.Drawing.Point(234, 118)
         Me.TxtCommission.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtCommission.Name = "TxtCommission"
         Me.TxtCommission.Size = New System.Drawing.Size(233, 31)
@@ -379,7 +379,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtDeliveryCharges
         '
-        Me.TxtDeliveryCharges.Location = New System.Drawing.Point(235, 63)
+        Me.TxtDeliveryCharges.Location = New System.Drawing.Point(234, 63)
         Me.TxtDeliveryCharges.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtDeliveryCharges.Name = "TxtDeliveryCharges"
         Me.TxtDeliveryCharges.Size = New System.Drawing.Size(233, 31)
@@ -415,7 +415,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtTotalBoxes
         '
-        Me.TxtTotalBoxes.Location = New System.Drawing.Point(196, 34)
+        Me.TxtTotalBoxes.Location = New System.Drawing.Point(195, 33)
         Me.TxtTotalBoxes.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtTotalBoxes.Name = "TxtTotalBoxes"
         Me.TxtTotalBoxes.Size = New System.Drawing.Size(139, 31)
@@ -445,7 +445,7 @@ Partial Class PurchaseOrderForm
         '
         'TxtTotalHangers
         '
-        Me.TxtTotalHangers.Location = New System.Drawing.Point(384, 34)
+        Me.TxtTotalHangers.Location = New System.Drawing.Point(383, 33)
         Me.TxtTotalHangers.Margin = New System.Windows.Forms.Padding(11, 8, 11, 8)
         Me.TxtTotalHangers.Name = "TxtTotalHangers"
         Me.TxtTotalHangers.Size = New System.Drawing.Size(139, 31)
@@ -503,7 +503,7 @@ Partial Class PurchaseOrderForm
         'label12
         '
         Me.label12.AutoSize = True
-        Me.label12.Location = New System.Drawing.Point(196, 0)
+        Me.label12.Location = New System.Drawing.Point(195, 0)
         Me.label12.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.label12.Name = "label12"
         Me.label12.Size = New System.Drawing.Size(132, 25)
@@ -513,7 +513,7 @@ Partial Class PurchaseOrderForm
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(384, 0)
+        Me.Label10.Location = New System.Drawing.Point(383, 0)
         Me.Label10.Margin = New System.Windows.Forms.Padding(11, 0, 11, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(123, 25)
@@ -745,7 +745,7 @@ Partial Class PurchaseOrderForm
         Me.TableLayoutPanel1.ColumnCount = 3
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.51768!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.48232!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 210.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 211.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.label26, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.TxtTotalBoxes, 1, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label10, 2, 0)
@@ -767,7 +767,7 @@ Partial Class PurchaseOrderForm
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.67081!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 185.0!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 163.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Label21, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.TxtStockCode, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.CmdDeleteFromGrid, 4, 2)
@@ -852,7 +852,7 @@ Partial Class PurchaseOrderForm
         Me.TableLayoutPanel5.ColumnCount = 3
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.63713!))
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.36287!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 262.0!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 263.0!))
         Me.TableLayoutPanel5.Controls.Add(Me.Label6, 0, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.Label7, 0, 1)
         Me.TableLayoutPanel5.Controls.Add(Me.Label8, 0, 2)
@@ -895,7 +895,7 @@ Partial Class PurchaseOrderForm
         Me.Controls.Add(Me.cmdOK)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "PurchaseOrderForm"
         Me.Text = "PurchaseOrderForm"
         CType(Me.DgvItems, System.ComponentModel.ISupportInitialize).EndInit()
