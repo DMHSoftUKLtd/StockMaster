@@ -2,18 +2,19 @@
 Imports System.Text.RegularExpressions
 
 Public Class Utility
+    ' Boolean Data Types
     Public SaveToDB As Boolean
     Public UpdateInDB As Boolean
     Public DeleteFromDB As Boolean
-    Public Result As Integer
-    Public UserID As Integer
+    ' String Data Types
     Public WarehouseRef As String
     Public ShopRef As String
+    Public FromWarehouseRef As String   ' Transfer additional data type
+    Public FromShopRef As String   ' Transfer additional data type
+    Public ToWarehouseRef As String   ' Transfer additional data type
+    Public ToShopRef As String   ' Transfer additional data type
     Public SupplierRef As String
     Public StockCode As String
-    Public DeliveredQtyHangers As Integer
-    Public DeliveredQtyBoxes As Integer
-    Public DeliveredQtyGarments As Integer
     Public AddressLine1 As String
     Public AddressLine2 As String
     Public AddressLine3 As String
@@ -25,15 +26,24 @@ Public Class Utility
     Public eMail As String
     Public WebsiteAddress As String
     Public Memo As String
-    Public VATAmount As Decimal
-    Public MovementDate As DateTime
     Public DeliveryType As String
     Public Reference As String
     Public SMovementType As String
+    ' Integer Data Types
+    Public Result As Integer
+    Public UserID As Integer
+    Public DeliveredQtyHangers As Integer
+    Public DeliveredQtyBoxes As Integer
+    Public DeliveredQtyGarments As Integer
     Public Qty As Integer
     Public TotalGainItems As Integer
     Public TotalLossItems As Integer
+    ' Decimal Data Types
+    Public VATAmount As Decimal
     Public Value As Decimal
+    ' DateTime Data Types
+    Public MovementDate As DateTime
+
     Public Function GetConnString(ID As Integer) As String
         ' Returns the correct Database connection string for the identity record.
         If ID = 1 Then

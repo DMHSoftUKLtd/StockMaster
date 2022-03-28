@@ -23,6 +23,7 @@ Public Class Warehouse
     End Sub
 
     Public Sub SaveWarehouseRecordToDB()
+        Using conn As SqlConnection(GetConnString(1))
 
     End Sub
 

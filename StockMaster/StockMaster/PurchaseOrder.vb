@@ -16,7 +16,7 @@ Public Class PurchaseOrder
 
     End Sub
 
-    Public Sub DeletePurchaseOrderHeadRecordToDB()
+    Public Sub DeletePurchaseOrderHeadRecordInDB()
 
     End Sub
     Public Sub SavePurchaseOrderLineRecordToDB()
@@ -27,7 +27,7 @@ Public Class PurchaseOrder
 
     End Sub
 
-    Public Sub DeletePurchaseOrderLineRecordToDB()
+    Public Sub DeletePurchaseOrderLineRecordInDB()
 
     End Sub
     Public Function CheckLastSaved() As Integer
